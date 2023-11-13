@@ -1,0 +1,1 @@
+const solution = (my,n) => my.slice(0,n)
