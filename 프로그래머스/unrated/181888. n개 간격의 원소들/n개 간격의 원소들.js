@@ -1,0 +1,1 @@
+const solution= (num_list, n)=> num_list.filter((item,index)=>index%n==0?item:'')
