@@ -1,0 +1,1 @@
+const solution = myStr => [...myStr].map(v=>v=="a"||v=="A"?v.toUpperCase():v.toLowerCase()).join("")
