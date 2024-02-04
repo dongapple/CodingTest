@@ -1,0 +1,1 @@
+const solution  = (str, pat) => [...str].map(v=>v==="A"?"B":"A").join("").includes(pat)/1
