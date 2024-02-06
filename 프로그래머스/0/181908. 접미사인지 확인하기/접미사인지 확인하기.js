@@ -1,0 +1,1 @@
+const solution = (my, is) => my.indexOf(is) + is.length === my.length ? 1 : 0
