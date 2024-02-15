@@ -1,0 +1,1 @@
+const solution = arr => arr.includes(2)? arr.filter((elm,idx)=>arr.indexOf(2)<=idx && arr.lastIndexOf(2)>=idx) : [-1]
