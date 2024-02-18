@@ -1,0 +1,1 @@
+const solution = (arr, n) => arr.map((elm,idx)=> arr.length%2 !== idx % 2? elm+n:elm  )
