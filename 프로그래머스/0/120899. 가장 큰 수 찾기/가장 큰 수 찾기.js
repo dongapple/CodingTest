@@ -1,4 +1,1 @@
-const solution =arr=> {
-    const maxValue = Math.max.apply(null, arr);
-    return [maxValue , arr.indexOf(maxValue)]
-}
+const solution =arr=>  [Math.max(...arr) , arr.indexOf(Math.max(...arr))]
