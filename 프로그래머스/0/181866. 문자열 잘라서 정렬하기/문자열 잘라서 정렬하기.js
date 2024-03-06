@@ -1,0 +1,1 @@
+const solution = str => str.split("x").filter(v=>v).sort()
