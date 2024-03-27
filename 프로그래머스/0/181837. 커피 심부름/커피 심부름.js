@@ -1,0 +1,1 @@
+const solution =order => order.map(elm=>elm.includes("cafelatte")?5000:4500).reduce((a,c)=>a+c)
